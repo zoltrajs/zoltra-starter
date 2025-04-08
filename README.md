@@ -13,7 +13,7 @@ This is a minimal starter template for quickly setting up Zoltra projects. It in
 1. Create a new project using Zoltra:
 
    ```bash
-   npx zoltra@0.1.0-alpha.1.7 create myapp
+   npx zoltra@alpha create myapp
    ```
 
 2. Start the application in development mode:
