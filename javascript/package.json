@@ -1,7 +1,7 @@
 {
   "name": "zoltra-starter",
-  "version": "1.0.0",
-  "description": "Minimal, ready-to-use template to kickstart your Zoltra project.",
+  "version": "0.1.0",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "start": "zoltra start",

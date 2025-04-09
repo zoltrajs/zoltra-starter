@@ -1,7 +1,7 @@
 {
   "name": "zoltra-starter",
-  "version": "1.0.0",
-  "description": "Minimal, ready-to-use template to kickstart your Zoltra project.",
+  "version": "0.1.0",
+  "private": true,
   "main": "dist/server.js",
   "scripts": {
     "start": "zoltra start:ts",
@@ -10,7 +10,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "zoltra": "^0.1.0-alpha.1.6"
+    "zoltra": "^0.1.0-alpha.1.8"
   },
   "devDependencies": {
     "@types/node": "^22.13.17",
