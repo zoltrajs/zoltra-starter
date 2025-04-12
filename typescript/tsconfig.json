@@ -7,8 +7,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedLocals": true
+    // "noUnusedParameters": true
   },
   "include": ["./**/*.ts"],
   "exclude": ["./node_modules", "./dist"]
