@@ -1,13 +1,17 @@
-import { App, Logger } from "zoltra";
+import { App, Logger, corsPlugin } from "zoltra";
 
 const logger = new Logger("Server");
 
 async function startServer() {
   try {
     const app = new App();
+
+    app.register(corsPlugin());
+
     await app.start();
   } catch (error) {
-    logger.error("Failed to start server", { ...error as Error });
+    const err = error as Error;
+    logger.error(`Failed to start server: ${err.message}`);
     process.exit(1);
   }
 }
