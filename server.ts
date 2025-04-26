@@ -1,10 +1,10 @@
-import { App, Logger, corsPlugin } from "zoltra";
+import { Zoltra, Logger, corsPlugin } from "zoltra";
 
 const logger = new Logger("Server");
 
 async function startServer() {
   try {
-    const app = new App();
+    const app = new Zoltra();
 
     app.register(corsPlugin());
 
