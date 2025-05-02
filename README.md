@@ -60,13 +60,13 @@ import { getUserById, getUsers } from "../controllers/users.controller";
 const userRoutes = defineRoutes([
   {
     method: "GET",
-    path: "/api/users",
+    path: "/",
     handler: getUsers,
     middleware: [],
   },
   {
     method: "GET",
-    path: "/api/users/:id",
+    path: "/:id",
     handler: getUserById,
   },
 ]);
