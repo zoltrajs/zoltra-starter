@@ -5,7 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "zoltra start:ts",
-    "dev": "zoltra dev:ts"
+    "dev": "zoltra dev:ts",
+    "build": "tsc"
   },
   "keywords": [],
   "license": "ISC",
